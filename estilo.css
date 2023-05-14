@@ -1,0 +1,85 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+
+  ul, ol {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  
+  li {
+    color: #666666;
+    align-items: center;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .cancion {
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .cancion img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .youtube-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .button-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .youtube-music-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .youtube-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("img/music.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 5px;
+  }
+  
+  .youtube-button:hover {
+    background-color: #CC0000;
+  }
